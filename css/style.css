@@ -68,7 +68,7 @@ p {
   font-size: 15px;
   font-weight: 300;
   font-family: 'Poppins', sans-serif;
-  color: #888;
+  /* color: #888; */
   line-height: 1.8;
   margin: 0;
 }
@@ -177,7 +177,7 @@ ul {
   height: 10px;
   margin: 0 5px;
   border-radius: 50%;
-  background: rgba(200, 200, 200, 0.4);
+  background: #b5bab3;
 }
 
 .owl-theme .owl-dots .owl-dot.active span,
@@ -786,10 +786,11 @@ ul {
   display: inline-block;
 }
 .testimonials .client-area .author {
-  width: 90px;
-  height: 90px;
+  /* width: 90px;
+  height: 90px; */
+  height: 140px;
   border: 8px solid #fff;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   overflow: hidden;
   position: relative;
   margin-top: -50px;
@@ -803,9 +804,10 @@ ul {
   margin-bottom: 5px;
 }
 .testimonials .client-area span {
-  font-size: 12px;
+  font-size: 15px;
   letter-spacing: 1px;
   color: #6db344;
+  font-weight: 800;
 }
 .testimonials .owl-carousel {
   overflow: hidden;
